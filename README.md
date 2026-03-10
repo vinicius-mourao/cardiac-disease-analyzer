@@ -11,8 +11,7 @@ cardiovascular indicators using Pandas and Matplotlib.
 - Visualizations comparing patients with and without heart disease
 
 ## Dataset
-Heart Failure Prediction Dataset — Kaggle
-kaggle.com/datasets/fedesoriano/heart-failure-prediction
+Heart Failure Prediction Dataset — Kaggle: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 ## Technologies
 - Python
@@ -26,7 +25,7 @@ python heart_disease_analyzer.py
 - **Dataset** 
     - 918 patients were loaded, 172 rows were removed due to missing or invalid values (zero cholesterol, zero blood pressure or unlikely ages), leaving 746 patients for analysis.
 
-    ![alt text](<Captura de ecrã 2026-03-10 004010.png>)
+    ![alt text](<basic_statistics.png>)
 - **Basic Statistics** 
     - The average patient is 52 years old with a resting blood pressure of 133 mmHg, cholesterol of 244 mg/dL and a maximum heart rate of 140 bpm. These values are consistent with a middle-aged population at cardiovascular risk.
 - **Anomaly Detection**
@@ -40,14 +39,14 @@ python heart_disease_analyzer.py
 - **Cholesterol**
     - Both groups show similar cholesterol distributions centered around 200–250 mg/dL, with no clear separation between patients with and without heart disease. This suggests that cholesterol alone is not a strong differentiator in this dataset.
 
-    ![alt text](<Captura de ecrã 2026-03-10 001920.png>)
+    ![alt text](<cholesterol_distribution.png>)
 - **Age Distribution**
     - Patients without heart disease are more concentrated between ages 40–55, while patients with heart disease are more prevalent from age 55 onwards. This confirms the well-known relationship between aging and increased cardiovascular risk.
 
-    ![alt text](<Captura de ecrã 2026-03-10 001941.png>)
+    ![alt text](<age_distribution.png>)
 - **Heart Disease by Sex**
     - The dataset is heavily male-dominated. Among females, the vast majority do not have heart disease (approximately 140 vs 40). Among males, heart disease is slightly more prevalent than its absence (approximately 315 vs 250), suggesting higher cardiovascular risk in men within this population.
     
-    ![alt text](<Captura de ecrã 2026-03-10 001950.png>)
+    ![alt text](<sex_distribution.png>)
 
   
