@@ -35,7 +35,7 @@ python heart_disease_analyzer.py
 - **Maximum Heart Rate** 
     - Patients without heart disease tend to achieve higher maximum heart rates (140–180 bpm), while patients with heart disease are concentrated in lower ranges (100–140 bpm). This is consistent with chronotropic incompetence, a known clinical indicator of cardiac dysfunction where a compromised heart fails to reach normal heart rates during exercise.
 
-    ![alt text](max_heart_rate_distribution-2.png)
+    ![alt text](max_heart_rate_distribution.png)
 - **Cholesterol**
     - Both groups show similar cholesterol distributions centered around 200–250 mg/dL, with no clear separation between patients with and without heart disease. This suggests that cholesterol alone is not a strong differentiator in this dataset.
 
